@@ -1,0 +1,14 @@
+### Cadastrar Produto
+POST http://localhost:8080/produtos
+Content-Type: application/json
+
+{
+  "nome": "Echo Dot 5ª Geração",
+  "url": "https://www.amazon.com.br/Echo-Dot-4%C2%AA-gera%C3%A7%C3%A3o-Cor-Azul/dp/B09B8QFYZ2/?_encoding=UTF8&pd_rd_w=Osnbk&content-id=amzn1.sym.52e74d21-088e-4a9d-888d-8b14bf95d4ae&pf_rd_p=52e74d21-088e-4a9d-888d-8b14bf95d4ae&pf_rd_r=BY1JF7YJ7JY73QG16W4D&pd_rd_wg=V5V9O&pd_rd_r=bca3b345-4cf1-47c0-97f1-1238ec16faa6&ref_=pd_hp_d_btf_crs_zg_bs_16333486011&th=1",
+  "precoAlvo": 400.00
+}
+
+###
+
+### Listar Produtos
+GET http://localhost:8080/produtos
